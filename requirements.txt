@@ -1,3 +1,4 @@
 streamlit
 sentencepiece
 transformers
+torch
