@@ -62,6 +62,7 @@ def get_prediction(input_text):
 
 #============================interface=================================#
 try:
+  st.set_page_config(page_title='NextWordPredictor', layout = 'wide', initial_sidebar_state = 'auto')
   st.title("Next Word Prediction")
 
   input_text =  st.text_area('Enter your text here', placeholder='Type here....')
